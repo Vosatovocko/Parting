@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 
 # Load the Excel file
+#file_path = 'C:/Users/ellen/Downloads/python/db_PARTING.xlsx'
 file_path = 'C:/python projects/Parting/db_PARTING.xlsx'
 df = pd.read_excel(file_path)
 
